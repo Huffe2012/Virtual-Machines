@@ -1,5 +1,7 @@
 # Virtual-Machines
-🛠️ Setup Steps
+🛠️ Setup Steps- Created a Windows 10 and Ubuntu VM
+![Screenshot 2025-06-22 002606](https://github.com/user-attachments/assets/337d7f47-0f15-45b2-8936-af14e5f62f04)
+
 Downloaded and Installed VirtualBox
 Used VirtualBox as the virtualization platform to host the virtual machine.
 
@@ -33,12 +35,13 @@ Proceeded with the Windows installation after resolving virtualization conflicts
 Created Snapshot
 Took a snapshot (Machine > Take Snapshot) post-installation in case a rollback is needed later.
 
-🔐 Windows Defender Configuration
+## 🔐 Windows Defender Configuration
 To simulate a more open threat environment for malware analysis and detection practice:
 
 Disabled Tamper Protection from Windows Security settings.
 
 Used PowerShell to disable several Defender features:
+![Screenshot 2025-06-21 214905](https://github.com/user-attachments/assets/8770a274-ad5d-4563-9390-d2477b51103d)
 
 powershell
 Copy
@@ -48,7 +51,7 @@ Set-MpPreference -DisableIOAVProtection $true
 Set-MpPreference -DisableScanningMappedNetworkDrivesForFullScan $true
 Set-MpPreference -DisableBlockAtFirstSeen $true
 Set-MpPreference -DisableAntiSpyware $true
-📚 Lessons Learned
+## 📚 Lessons Learned
 VirtualBox requires VT-x (Intel Virtualization) to be enabled.
 Hyper-V conflicts with VirtualBox, so Hyper-V must be disabled to run VMs effectively.
 
