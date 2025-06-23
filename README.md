@@ -1,4 +1,4 @@
-# Virtual-Machines
+# Virtual-Machines Set Up
 🛠️ Setup Steps- Created a Windows 10 and Ubuntu VM
 ![Screenshot 2025-06-22 002606](https://github.com/user-attachments/assets/337d7f47-0f15-45b2-8936-af14e5f62f04)
 
