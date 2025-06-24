@@ -41,7 +41,7 @@ To simulate a more open threat environment for malware analysis and detection pr
 **Disabled Tamper Protection from Windows Security settings.**
 
 Used PowerShell to disable several Defender features:
-![Screenshot 2025-06-21 214905](https://github.com/user-attachments/assets/8770a274-ad5d-4563-9390-d2477b51103d)
+
 
 Set-MpPreference -DisableRealtimeMonitoring $true
 Set-MpPreference -DisableIOAVProtection $true
