@@ -1,5 +1,11 @@
 # Virtual-Machines Set Up
-🛠️ Setup Steps- Created a Windows 10 and Ubuntu VM
+This repository documents the setup of a personal cybersecurity lab environment using VirtualBox. The lab includes two virtual machines:
+
+🖥️ Windows 10 VM – Used for simulating a target or victim system, useful for malware analysis, vulnerability testing, and practicing incident response.
+
+🐧 Ubuntu VM – Configured as the attacker machine with various cybersecurity tools (e.g., Nmap, Wireshark, Metasploit) for penetration testing and ethical hacking practice.
+
+This environment is ideal for learning, testing, and improving cybersecurity skills in a controlled and safe setting.
 ![Screenshot 2025-06-22 002606](https://github.com/user-attachments/assets/337d7f47-0f15-45b2-8936-af14e5f62f04)
 
 **-Downloaded and Installed VirtualBox**
