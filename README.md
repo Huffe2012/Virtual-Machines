@@ -27,7 +27,7 @@ Imported the ISO file into VirtualBox and started the VM to begin the Windows in
 Encountered error:
 Hyper-V-VT-x is not available (VERR_VMX_NO_VMX)
 Solution:
-Disabled Hyper-V using the following command in an elevated Command Prompt:
+Disabled Hyper-V using the following command:
 
 bcdedit /set hypervisorlaunchtype off
 
